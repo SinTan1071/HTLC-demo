@@ -1,0 +1,35 @@
+{
+  "name": "sintan1071-htlc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/main.js",
+  "scripts": {
+    "dev": "vue-cli-service serve",
+    "ganache-chainA": "ganache-cli --networkId 1337 --port 8545",
+    "ganache-chainB": "ganache-cli --networkId 74 --port 1723",
+    "test": "truffle test"
+  },
+  "author": "RyanTan",
+  "license": "",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "element-ui": "^2.15.6",
+    "vue": "2.6.10",
+    "vue-router": "3.0.2",
+    "web3": "^1.7.0"
+  },
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "@babel/core": "7.0.0",
+    "@babel/register": "7.0.0",
+    "@babel/parser": "^7.7.4",
+    "eslint": "5.15.3",
+    "ganache-cli": "^6.12.2",
+    "@vue/cli-plugin-babel": "3.5.3",
+    "@vue/cli-plugin-eslint": "^3.9.1",
+    "@vue/cli-plugin-unit-jest": "3.5.3",
+    "@vue/cli-service": "3.5.3",
+    "@vue/test-utils": "1.0.0-beta.29",
+    "vue-template-compiler": "2.6.10"
+  }
+}
